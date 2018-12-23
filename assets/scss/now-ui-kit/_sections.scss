@@ -108,9 +108,9 @@
         display: none;
     }
 
-    &[filter-color="gray"]{
-        @include linear-gradient(rgba($black-color,.0),rgb(197,197,206));
-    }
+    // &[filter-color="gray"]{
+    //     @include linear-gradient(rgba($black-color,.0),rgb(197,197,206));
+    // }
 }
 
 .section-story-overview{
