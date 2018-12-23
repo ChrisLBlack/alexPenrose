@@ -176,7 +176,9 @@
 }
 
 .bg-primary{
-    background-color: $primary-color !important;
+    // background-color: $primary-color !important;
+    background-color: black !important;
+    opacity: .75 !important;
 }
 
 .bg-info{
