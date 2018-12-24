@@ -175,6 +175,13 @@
 }
 
 @mixin navbar-collapse() {
+    .modal-backdrop.show{
+        z-index: 1032;
+    }
+    .modal{
+        z-index: 1033;
+    }
+
     .navbar-collapse{
         position: fixed;
         display: block;
